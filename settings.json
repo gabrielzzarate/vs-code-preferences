@@ -1,0 +1,45 @@
+{
+    "editor.fontFamily": "OperatorMono-Book",
+    "editor.fontSize": 13,
+    "editor.fontWeight": "600",
+    "editor.mouseWheelScrollSensitivity": 0.5,
+    "editor.tabSize": 2,
+    "editor.useTabStops": true,
+    "editor.wordWrap": "on",
+    "editor.formatOnPaste": true,
+    "editor.smoothScrolling": true,
+    "editor.multiCursorModifier": "ctrlCmd",
+    "editor.snippetSuggestions": "top",
+    "workbench.colorTheme": "Oceanic Next Italic",
+    "editor.cursorBlinking": "phase",
+    "editor.cursorWidth": 7,
+    "editor.tabCompletion": "on",
+    "editor.acceptSuggestionOnEnter": "off",
+    "editor.quickSuggestionsDelay": 30,
+    "workbench.sideBar.location": "left",
+    "go.useLanguageServer": true,
+    "go.lintTool": "golangci-lint",
+    "go.formatTool": "gofmt",
+    "window.zoomLevel": 0,
+    "window.title": "${dirty} ${activeEditorMedium}${separator}${rootName}",
+    "files.associations": {
+        "*.css": "postcss"
+    },
+    "emmet.includeLanguages": {
+        "javascript": "javascriptreact"
+    },
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [{
+            "scope": ["comment", "punctuation.definition.comment"],
+            "settings": {
+                "foreground": "#0088ff"
+            }
+        }]
+    },
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "explorer.confirmDragAndDrop": false,
+    "terminal.integrated.fontFamily": "monospace",
+    "breadcrumbs.enabled": true,
+    "explorer.confirmDelete": false,
+    "javascript.updateImportsOnFileMove.enabled": "always",
+}
